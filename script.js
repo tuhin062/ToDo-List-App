@@ -34,3 +34,4 @@ function saveData(){
 function ShowData(){
   listContainer.innerHTML = localStorage.getItem("data");
 }
+showData();
